@@ -39,12 +39,11 @@ query { # get users
 ```
 
 ## Scheme
-###### tipo de Dato de Entrada para Agregar un Usuario
+###### tipo de Dato UserAddInput de Entrada para Agregar un Usuario
 ```js
 
 UserAddInput {
- email:String
-    pwd:String
+   email:String
     firstNames:String
     lastNames:String
     isCompany:Boolean
@@ -63,13 +62,27 @@ UserAddInput {
     idCountry:Int
     idState:Int
     idCity:Int
-    address1:String
-    address2:String
-    zipcode:String
-    phone:String
-    redSocial:SocialMediaInput
-    observations:String
+    address1
+    address2
+    zipcode
+    phone
+    redSocial
+    observations
 
 }
 ```
-
+###### tipo de Dato Addrees 
+```js
+ Addrees {
+    adreess1: String 
+    adreess2: String 
+    adreess3: String 
+    adreess4: String 
+    city: String 
+    locality:String
+    country:String 
+    zipcode: String
+    addressReference:String  
+    OtherDetails:String
+  }
+```
