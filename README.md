@@ -2,9 +2,9 @@
 Microservicio de Authenticacion
 
 
-## 1. Mutation 
+## Mutation 
 ```js
-mutation { # create new user
+mutation { # ##create new user
   userAdd(data:{UserAddInput}) {
     idUser
     email
