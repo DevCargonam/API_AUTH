@@ -5,7 +5,7 @@ Microservicio de Authenticacion
 ## Mutation 
 ```js
 mutation { # create new user
-  userAdd(data: UserAddInput) {
+  userAdd(data:{UserAddInput}) {
     id
     name
     errors {
