@@ -6,16 +6,25 @@ Microservicio de Authenticacion
 ```js
 mutation { # create new user
   userAdd(data:{UserAddInput}) {
-    id
-    name
-    errors {
-      path
-      errors {
-      	validator
-      	message
-      	code
-      }
-    }
+    idUser
+    email
+    lastNames
+    firstNames
+    sex
+    birthdate
+    DNI
+    bloodType
+    cellPhone
+    homePhone
+    emergencyPhone
+    idCountry
+    idState
+    idCity
+    address1
+    address2
+    zipcode
+
+  
   }
 }
 ```
