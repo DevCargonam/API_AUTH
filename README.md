@@ -40,6 +40,7 @@ query { # get users
 
 ## Scheme
 ```js
+## tipo de Dato de Entrada para Agregar un Usuario
 UserAddInput {
  email:String
     pwd:String
