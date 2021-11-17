@@ -2,7 +2,7 @@
 Microservicio de Authenticacion
 
 
-# Mutation 
+## Mutation 
 ```js
 mutation { # create new user
   createUser(name: "") {
