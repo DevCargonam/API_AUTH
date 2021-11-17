@@ -2,7 +2,7 @@
 Microservicio de Authenticacion
 
 
-## Mutation 
+## 1. Mutation 
 ```js
 mutation { # create new user
   userAdd(data:{UserAddInput}) {
@@ -28,7 +28,7 @@ mutation { # create new user
   }
 }
 ```
-## Query 
+## - Query 
 ```js
 query { # get users
   getUsers(skip: 0, limit: 5) {
