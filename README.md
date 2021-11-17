@@ -1,16 +1,7 @@
 # API_AUTH
 Microservicio de Authenticacion
 
-```
-# install dependencies
-npm install
 
-# start the server (GraphiQL is started at http://127.0.0.1:3000)
-npm start
-
-
-
-## Query Examples
 
 ```js
 mutation { # create new user
