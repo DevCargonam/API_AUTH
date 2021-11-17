@@ -3,9 +3,9 @@ Microservicio de Authenticacion
 
 
 ## Mutation 
-```js
+```graphql
 mutation { # ##create new user
-  userAdd(data:{UserAddInput}) {
+  userAdd(data:{'UserAddInput'}) {
     idUser
     email
     lastNames
